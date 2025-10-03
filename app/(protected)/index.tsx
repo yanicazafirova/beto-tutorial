@@ -1,4 +1,5 @@
 import { View, Text} from 'react-native';
+import SignOutButton from "@/components/clerk/SignOutButton";
 
 
 export default function Index() {
@@ -9,6 +10,7 @@ export default function Index() {
             alignItems: 'center'
         }}>
             <Text>Home screen</Text>
+            <SignOutButton/>
         </View>
     );
 }
