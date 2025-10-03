@@ -1,15 +1,10 @@
 import { View, Text} from 'react-native';
+import SignIn from "@/components/clerk/SignIn";
 
 
 export default function Index() {
     return (
-        <View style={{
-            flex: 1,
-            justifyContent: 'center',
-            alignItems: 'center'
-        }}>
-            <Text>Auth</Text>
-        </View>
+        <SignIn signUpUrl='/sign-up' scheme='betotutorial' homeUrl='(protected)'/>
     );
 }
 
