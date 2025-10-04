@@ -40,9 +40,6 @@ yarn-error.*
 
 app-example
 
-# pnpm (if using npm instead)
-pnpm-lock.yaml
-
 # generated native folders
 /ios
 /android
